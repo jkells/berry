@@ -3,7 +3,7 @@ runs:
   steps:
     - uses: actions/setup-node@master
       with:
-        node-version: 14.x
+        node-version: 16.x
 
     #region Build the standard bundle
     - uses: actions/cache@v2
